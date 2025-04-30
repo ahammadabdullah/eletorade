@@ -1,3 +1,5 @@
+import Navbar from "@/components/Navbar/navbar";
+
 export default function Home() {
-  return <div className="text-3xl font-industry">Hello</div>;
+  return <Navbar />;
 }
