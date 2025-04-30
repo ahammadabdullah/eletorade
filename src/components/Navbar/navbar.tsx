@@ -25,7 +25,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full bg-black text-white border-b border-zinc-800 font-industry">
+    <nav className="w-full bg-transparent text-white border-b border-zinc-800 font-industry">
       <div className="container mx-auto flex items-center justify-between h-16 px-0">
         {/* Mobile menu */}
         <Sheet>

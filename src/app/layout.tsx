@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
+import Navbar from "@/components/Navbar/navbar";
 
 const industry = localFont({
   variable: "--font-industry",
@@ -18,6 +19,48 @@ const industry = localFont({
     },
     {
       path: "../assets/fonts/IndustryTest-Medium.otf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+});
+
+const tungsten = localFont({
+  variable: "--font-tungsten",
+  src: [
+    {
+      path: "../assets/fonts/tungsten-narrow-book.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/tungsten-narrow-medium.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/tungsten-narrow-black.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+});
+
+const neuehaas = localFont({
+  variable: "--font-neuehaas",
+  src: [
+    {
+      path: "../assets/fonts/NeueHaasDisplayBold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/NeueHaasDisplayLight.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/NeueHaasDisplayMedium.ttf",
       weight: "500",
       style: "normal",
     },
@@ -47,8 +90,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${industry.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${industry.variable} ${neuehaas.variable} ${tungsten.variable} ${geistSans.variable} ${geistMono.variable} antialiased bg-foreground`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
