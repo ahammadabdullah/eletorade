@@ -13,7 +13,7 @@ const industry = localFont({
       style: "normal",
     },
     {
-      path: "../assets/fonts/IndustryTest-Demi.otf",
+      path: "../assets/fonts/IndustryTest-Light.otf",
       weight: "400",
       style: "normal",
     },
