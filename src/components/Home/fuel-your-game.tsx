@@ -41,7 +41,7 @@ const FuelYourGame = () => {
           </div>
         </div>
 
-        <div className="mb-10 flex  justify-between items-center ">
+        <div className="pb-10 flex  justify-between items-center ">
           <div className="h-[2px] w-1/3 bg-primary">a</div>
           <HexButton>Learn More</HexButton>
           <div className="h-[2px] w-1/3 bg-primary">a</div>
