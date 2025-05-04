@@ -83,7 +83,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Eletorade",
+  title: "Electorade",
   description: "Healthy Electrolyte Sports Drink",
 };
 
