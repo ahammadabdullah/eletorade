@@ -22,6 +22,11 @@ const industry = localFont({
       weight: "500",
       style: "normal",
     },
+    {
+      path: "../assets/fonts/IndustryTest-Thin.otf",
+      weight: "300",
+      style: "normal",
+    },
   ],
 });
 
