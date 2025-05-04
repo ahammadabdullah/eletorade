@@ -67,7 +67,7 @@ export default function FuelYourBody() {
           FUEL YOUR BODY <span className="text-primary">RIGHT</span>
         </h3>
 
-        <div className="flex justify-center p-4 bg-black font-industry font-light">
+        <div className="flex justify-center p-4  font-industry font-light">
           <div className="w-full max-w-4xl ">
             <div className="grid grid-cols-4">
               {/* Header Row */}
