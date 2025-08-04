@@ -25,7 +25,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full bg-transparent text-white border-b border-zinc-800 font-industry">
+    <nav className="w-full bg-transparent text-white border-b border-zinc-800 font-industry ">
       <div className="container mx-auto flex items-center justify-between h-16 px-0">
         {/* Mobile menu */}
         <Sheet>
@@ -141,11 +141,6 @@ export default function Navbar() {
             </span>
           </Link>
         </div>
-
-        {/* Mobile cart icon */}
-        <Link href="/cart" className="md:hidden pr-4">
-          <ShoppingCart className="h-5 w-5" />
-        </Link>
       </div>
     </nav>
   );

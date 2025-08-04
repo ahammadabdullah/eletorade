@@ -11,10 +11,10 @@ const FuelYourGame = () => {
   return (
     <section className="bg-black/80">
       <div className="max-w-7xl mx-auto ">
-        <h3 className="text-7xl font-industry text-center font-normal text-white py-10 ">
+        <h3 className="text-3xl md:text-7xl font-industry text-center font-normal text-white py-10 ">
           FUEL YOUR <span className="text-primary">GAME</span>
         </h3>
-        <div className="grid grid-cols-3 gap-6 items-center text-center pb-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:items-center text-center pb-10 px-8">
           {/* Left Column */}
           <div>
             <Image src={frame1} alt="Athlete" className="w-full mt-4" />
@@ -23,10 +23,13 @@ const FuelYourGame = () => {
               alt="Athlete"
               className="w-full mt-4 grayscale "
             />
+            <div className="w-full mt-10 md:hidden">
+              <HexButton>Learn More</HexButton>
+            </div>
           </div>
 
           {/* Center Bottle */}
-          <div className="flex flex-col items-center">
+          <div className=" flex-col items-center hidden md:flex">
             <Image
               src={frame3}
               alt="Athlete"
@@ -36,12 +39,18 @@ const FuelYourGame = () => {
 
           {/* Right Column */}
           <div>
+            <Image
+              src={frame3}
+              alt="Athlete"
+              height={106}
+              className="w-full mt-4 h-[106px] object-cover md:hidden"
+            />
             <Image src={frame4} alt="Athlete" className="w-full mt-4" />
             <Image src={frame5} alt="Athlete" className="w-full mt-4" />
           </div>
         </div>
 
-        <div className="pb-10 flex  justify-between items-center ">
+        <div className="hidden md:flex pb-10 justify-between items-center ">
           <div className="h-[2px] w-1/3 bg-primary">a</div>
           <HexButton>Learn More</HexButton>
           <div className="h-[2px] w-1/3 bg-primary">a</div>
