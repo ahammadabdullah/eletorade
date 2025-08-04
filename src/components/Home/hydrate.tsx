@@ -1,7 +1,7 @@
 import React from "react";
 import HexButton from "../common/Button";
-import hydrate from "@/assets/images/hydrate.png";
-import hydratebg from "@/assets/images/hydratebg.png";
+// import hydrate from "@/assets/images/hydrate.png";
+// import hydratebg from "@/assets/images/hydratebg.png";
 import hydrateshape from "@/assets/images/hydrateshape.png";
 import Image from "next/image";
 const Hydrate = () => {
