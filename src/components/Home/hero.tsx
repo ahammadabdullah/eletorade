@@ -1,6 +1,6 @@
 import electorade from "@/assets/images/ELECTORADE1.png";
 import Image from "next/image";
-
+import mask from "@/assets/images/mask.png";
 const Hero = () => {
   return (
     <div className="bg-[url('/herobg.png')] bg-cover bg-black/80 bg-blend-multiply ">
@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
 
         {/* for mobile version */}
-        <div className="max-w-full mx-auto md:hidden">
+        <div className="max-w-full mx-auto md:hidden relative">
           <div className="relative overflow-hidden">
             <h3 className="text-background font-tungsten text-[220px] font-medium text-center p-0 m-0 h-[180px]">
               ELECTO
@@ -45,6 +45,9 @@ const Hero = () => {
             <div className="absolute inset-0 mask-gradient-bottom-2">
               {/* <Image src={electorade} alt="hero image" className="" /> */}
             </div>
+          </div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Image src={mask} alt="mask" className="object-cover" />
           </div>
           <div className="text-white flex items-center justify-center flex-col">
             <div className="font-neuehaas text-4xl flex flex-col items-center">
