@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="absolute inset-0 flex items-center justify-center">
-            <Image src={mask} alt="mask" className="object-cover" />
+            <Image src={mask} alt="mask" className=" w-[180px]" />
           </div>
           <div className="text-white flex items-center justify-center flex-col">
             <div className="font-neuehaas text-4xl flex flex-col items-center">
