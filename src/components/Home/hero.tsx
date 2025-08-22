@@ -15,6 +15,7 @@ const Hero = () => {
                 src={electorade}
                 alt="hero image"
                 className="object-cover"
+                priority
               />
             </div>
           </div>
