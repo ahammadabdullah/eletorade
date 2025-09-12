@@ -18,8 +18,8 @@ export default function Navbar() {
   ];
 
   const rightNavLinks = [
-    { name: "ABOUT", href: "/about", id: "about" },
-    { name: "CONTACT", href: "/contact", id: "contact" },
+    { name: "ABOUT", href: "#about", id: "about" },
+    { name: "CONTACT", href: "#contact", id: "contact" },
   ];
 
   return (
