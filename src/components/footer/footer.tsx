@@ -2,8 +2,14 @@ import React from "react";
 import logo from "@/assets/logo/logo.png";
 import Image from "next/image";
 import { Phone, Mail } from "lucide-react";
-import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
-import { FaYoutube } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaXTwitter,
+  FaYoutube,
+} from "react-icons/fa6";
+// import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,10 +28,10 @@ const Footer = () => {
           <div className="flex flex-col items-center mt-10 md:items-start md:mt-0 ">
             <p className="py-2">CONTACT US</p>
             <p className="flex items-center gap-3 py-2">
-              <Phone /> +880 123 456 7890
+              <Phone /> +8801722311309
             </p>
             <p className="flex items-center gap-3 py-2">
-              <Mail /> john@doe.com
+              <Mail /> Info@electorade.com
             </p>
           </div>
         </div>
@@ -44,13 +50,19 @@ const Footer = () => {
             <p>Google Security</p>
             <div className="flex gap-6">
               <p>
+                <FaFacebook />
+              </p>
+              <p>
+                <FaInstagram />
+              </p>
+              <p>
                 <FaLinkedin />
               </p>
               <p>
-                <FaXTwitter />
+                <FaYoutube />
               </p>
               <p>
-                <FaYoutube />
+                <FaXTwitter />
               </p>
             </div>
           </div>
