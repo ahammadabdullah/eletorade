@@ -30,12 +30,16 @@ const PickYourPower = () => {
                 <p className="font-industry text-xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                   Citrusy Boost For Maximum Energy
                 </p>
-                <ul className="font-industry text-2xl mt-5 text-center md:text-left">
+                <p className="font-industry text-xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                  Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L
+                </p>
+
+                <ul className="font-industry text-2xl mt-5 text-center md:text-left my-5">
                   <li>-Instant Hydration</li>
                   <li>-Endurance Fuel</li>
                   <li>-Refreshing Citrus Kick</li>
                 </ul>
-                <h3 className="font-industry text-4xl my-5 ">BDT 30</h3>
+                {/* <h3 className="font-industry text-4xl my-5 ">BDT 30</h3> */}
                 <HexButton>Drink Now</HexButton>
               </div>
             </div>
@@ -49,12 +53,15 @@ const PickYourPower = () => {
                 <p className="font-industry text-xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                   Zesty Refreshment for Peak Performance
                 </p>
-                <ul className="font-industry text-2xl mt-5 text-center md:text-left">
+                <p className="font-industry text-xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                  Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L
+                </p>
+                <ul className="font-industry text-2xl mt-5 text-center md:text-left my-5">
                   <li>-Instant Hydration</li>
                   <li>-Endurance Fuel</li>
                   <li>-Refreshing Citrus Kick</li>
                 </ul>
-                <h3 className="font-industry text-4xl my-5">BDT 45 </h3>
+                {/* <h3 className="font-industry text-4xl my-5">BDT 45 </h3> */}
                 <HexButton>Drink Now</HexButton>
               </div>
             </div>
