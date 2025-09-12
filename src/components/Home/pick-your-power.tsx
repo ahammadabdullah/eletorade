@@ -8,7 +8,7 @@ const hexPath1 = "polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 40%)";
 // const hexPath2 = "polygon(100% 0, 100% 80%, 80% 100%, 0 100%, 0 0)";
 const PickYourPower = () => {
   return (
-    <section className="bg-black/80 pb-10">
+    <section className="bg-black/80 pb-10" id="products">
       <div className="max-w-7xl mx-auto ">
         <h3 className="text-3xl md:text-7xl font-industry text-center font-normal text-white py-10 ">
           PICK YOUR <span className="text-primary">POWER</span>

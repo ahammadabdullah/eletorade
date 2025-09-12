@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, ShoppingCart } from "lucide-react";
+import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
@@ -11,12 +11,10 @@ import logo from "@/assets/logo/logo.png";
 
 export default function Navbar() {
   const [activeLink, setActiveLink] = useState("home");
-  const [cartTotal] = useState("500");
 
   const navLinks = [
     { name: "HOME", href: "/", id: "home" },
-    { name: "SHOP", href: "/shop", id: "shop" },
-    { name: "DELIVERY", href: "/delivery", id: "delivery" },
+    { name: "PRODUCTS", href: "#products", id: "products" },
   ];
 
   const rightNavLinks = [
@@ -60,7 +58,7 @@ export default function Navbar() {
                     {link.name}
                   </Link>
                 ))}
-                <div className="mt-auto pt-4 border-t border-zinc-800">
+                {/* <div className="mt-auto pt-4 border-t border-zinc-800">
                   <Link
                     href="/cart"
                     className="flex items-center space-x-2 text-sm font-industry"
@@ -68,7 +66,7 @@ export default function Navbar() {
                     <ShoppingCart className="h-4 w-4" />
                     <span>CART ({cartTotal}$)</span>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </SheetContent>
@@ -127,19 +125,6 @@ export default function Navbar() {
               {index < rightNavLinks.length - 1 && <Border />}
             </div>
           ))}
-          <Border />
-          <Link
-            href="/cart"
-            className="flex items-center space-x-2 px-8 py-5 font-industry tracking-wider text-white"
-          >
-            <ShoppingCart className="h-5 w-5" />
-            <span className="flex flex-col items-center">
-              CART{" "}
-              <span className="text-zinc-500 hover:text-white">
-                ({cartTotal}$)
-              </span>
-            </span>
-          </Link>
         </div>
       </div>
     </nav>
