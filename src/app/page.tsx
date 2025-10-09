@@ -1,4 +1,3 @@
-import Footer from "@/components/footer/footer";
 import FuelYourBody from "@/components/Home/fuel-your-body";
 import FuelYourGame from "@/components/Home/fuel-your-game";
 import Hero from "@/components/Home/hero";
@@ -13,7 +12,6 @@ export default function Home() {
       <PickYourPower />
       <FuelYourBody />
       <Hydrate />
-      <Footer />
     </div>
   );
 }

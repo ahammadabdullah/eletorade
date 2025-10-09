@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 import Navbar from "@/components/Navbar/navbar";
+import Footer from "@/components/footer/footer";
 
 const industry = localFont({
   variable: "--font-industry",
@@ -99,6 +100,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

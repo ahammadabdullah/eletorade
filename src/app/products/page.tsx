@@ -63,7 +63,7 @@ const categoryB = [
 function Page() {
   return (
     <div className="bg-[url('/herobg.png')] bg-cover bg-black/80 bg-blend-multiply ">
-      <div className="bg-[url('/heroGrid.png')] bg-cover bg-black/60 bg-blend-multiply">
+      <div className="bg-[url('/heroGrid.png')] bg-cover bg-black/60 bg-blend-multiply pb-20 ">
         <div className="max-w-7xl mx-auto ">
           <h3 className="text-3xl md:text-7xl font-industry text-center font-normal text-white py-10 ">
             PICK YOUR <span className="text-primary">POWER</span>
