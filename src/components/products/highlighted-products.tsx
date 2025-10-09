@@ -38,12 +38,12 @@ const HighlightedProduct = () => {
                 <h1 className="text-6xl lg:text-8xl font-tungsten font-medium tracking-wider mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
                   Aima
                 </h1>
-                <p className=" mb-6 leading-relaxed bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent w-[70%]">
+                <p className="text-xl mb-6 leading-relaxed bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent w-[70%]">
                   Water the symbol of purity. Experience the purity of water in
                   our packaged drinking water brand Aima. Quench your thirst and
                   hydrate yourself Purely with Aima Water
                 </p>
-                <ul className="list-none space-y-2 mb-8 text-gray-300">
+                <ul className="list-none text-xl space-y-2 mb-8 text-gray-300">
                   <li>- Pure Water</li>
                   <li>- Treated in 5 steps</li>
                   <li>- Rich in minerals</li>
