@@ -4,7 +4,7 @@ export default function FuelYourBody() {
   const nutritionData = {
     categories: [
       { name: "NUTRIENT", key: "nutrient" },
-      { name: "ELECTROADE", key: "electroade" },
+      { name: "ELECTORADE", key: "electroade" },
       { name: "LEADING SPORTS DRINK", key: "sportsDrink" },
       { name: "REGULAR ENERGY DRINK", key: "energyDrink" },
     ],
@@ -63,7 +63,7 @@ export default function FuelYourBody() {
   const nutritionDataForMobile = {
     categories: [
       { name: "NUTRIENT", key: "nutrient" },
-      { name: "ELECTROADE", key: "electroade" },
+      { name: "ELECTORADE", key: "electroade" },
       { name: "LEADING SPORTS DRINK", key: "sportsDrink" },
     ],
     nutrients: [
@@ -180,7 +180,7 @@ export default function FuelYourBody() {
                   <span className="flex-1">NUTRIENT</span>
                 </div>
                 <div className="py-3 px-1 text-center !font-medium bg-primary text-black">
-                  ELECTROADE
+                  ELECTORADE
                 </div>
 
                 {/* Data Rows */}
