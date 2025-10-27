@@ -18,16 +18,8 @@ const categoryA = [
   },
   {
     id: 2,
-    title: "Orange Blaze",
+    title: "Lemon Storm",
     image: product2,
-    description: "Citrusy Boost For Maximum Energy",
-    variants: "Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L",
-    infos: ["Instant Hydration", "Endurance Fuel", "Refreshing Citrus Kick"],
-  },
-  {
-    id: 3,
-    title: "Orange Blaze",
-    image: product3,
     description: "Citrusy Boost For Maximum Energy",
     variants: "Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L",
     infos: ["Instant Hydration", "Endurance Fuel", "Refreshing Citrus Kick"],

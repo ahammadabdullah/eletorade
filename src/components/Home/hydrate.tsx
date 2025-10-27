@@ -1,5 +1,4 @@
 import React from "react";
-import HexButton from "../common/Button";
 import mask from "@/assets/images/mask.png";
 import Image from "next/image";
 const Hydrate = () => {
@@ -16,7 +15,6 @@ const Hydrate = () => {
             <span className="text-[150px] md:text-[238px]  font-tungsten font-medium text-primary">
               NOW
             </span>
-            <HexButton className="w-[200px]">Order</HexButton>
           </div>
 
           <div className="flex-1 pl-32 hidden md:block">
