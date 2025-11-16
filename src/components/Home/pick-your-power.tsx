@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import orange from "@/assets/images/orange.png";
-import lemon from "@/assets/images/lemon.png";
+
+import product1 from "@/assets/images/products/1new.png";
+import product2 from "@/assets/images/products/2new.png";
 import HexButton from "../common/Button";
 
 const hexPath1 = "polygon(40% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 40%)";
@@ -17,7 +18,7 @@ const PickYourPower = () => {
         <div>
           <div className="flex justify-between items-center md:flex-row flex-col">
             <Image
-              src={lemon}
+              src={product1}
               alt="product_image"
               style={{ clipPath: hexPath1 }}
               className="w-full md:w-1/2 object-cover"
@@ -66,7 +67,7 @@ const PickYourPower = () => {
               </div>
             </div>
             <Image
-              src={orange}
+              src={product2}
               alt="product_image"
               style={{ clipPath: hexPath1 }}
               className="w-full md:w-1/2 object-cover"
