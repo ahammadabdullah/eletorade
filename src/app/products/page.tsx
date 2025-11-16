@@ -1,10 +1,10 @@
 import ProductCard from "@/components/products/product-card";
-import product1 from "@/assets/images/products/1.png";
-import product2 from "@/assets/images/products/2.png";
-import product3 from "@/assets/images/products/3.png";
-import product4 from "@/assets/images/products/4.png";
-import product5 from "@/assets/images/products/5.png";
-import product6 from "@/assets/images/products/6.png";
+import product1 from "@/assets/images/products/1new.png";
+import product2 from "@/assets/images/products/2new.png";
+import product5 from "@/assets/images/products/5new.png";
+import product6 from "@/assets/images/products/6new.png";
+import product4 from "@/assets/images/products/6new.png";
+
 import HighlightedProduct from "@/components/products/highlighted-products";
 
 const categoryA = [

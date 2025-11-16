@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import frame1 from "@/assets/images/frame1.png";
 import frame2 from "@/assets/images/frame2.png";
-import frame3 from "@/assets/images/frame3.png";
+import frame3 from "@/assets/images/frame3new.png";
 import frame4 from "@/assets/images/frame4.png";
 import frame5 from "@/assets/images/frame5.png";
 import HexButton from "../common/Button";
