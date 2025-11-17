@@ -11,7 +11,8 @@ interface ProductCardProps {
     title: string;
     image: StaticImageData;
     description: string;
-    variants: string;
+    variants?: string;
+    size?: string;
     infos: string[];
   };
 }
@@ -37,15 +38,22 @@ const ProductCard = ({ details }: ProductCardProps) => {
           <p className="font-industry text-xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent ">
             {details.description}
           </p>
-          <p className="font-industry text-xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent w-[70%] md:w-full">
-            {details.variants}
-          </p>
+          {details.variants && (
+            <p className="font-industry text-xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent w-[70%] md:w-full">
+              {details.variants}
+            </p>
+          )}
 
           <ul className="font-industry text-2xl mt-5 text-center md:text-left my-5">
             {details.infos.map((info, idx) => (
               <li key={idx}>-{info}</li>
             ))}
           </ul>
+          {details.size && (
+            <p className="font-industry font-medium text-3xl  mb-5">
+              {details.size}
+            </p>
+          )}
           <HexButton>Drink Now</HexButton>
         </div>
       </div>

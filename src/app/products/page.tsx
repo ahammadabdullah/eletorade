@@ -13,7 +13,6 @@ const categoryA = [
     title: "Orange Blaze",
     image: product1,
     description: "Citrusy Boost For Maximum Energy",
-    variants: "Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L",
     infos: ["Instant Hydration", "Endurance Fuel", "Refreshing Citrus Kick"],
   },
   {
@@ -21,7 +20,6 @@ const categoryA = [
     title: "Lemon Storm",
     image: product2,
     description: "Citrusy Boost For Maximum Energy",
-    variants: "Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L",
     infos: ["Instant Hydration", "Endurance Fuel", "Refreshing Citrus Kick"],
   },
 ];
@@ -33,6 +31,7 @@ const categoryB = [
     description: "Citrusy Boost For Maximum Energy",
     variants: "Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L",
     infos: ["Instant Hydration", "Endurance Fuel", "Refreshing Citrus Kick"],
+    size: "600 ML",
   },
   {
     id: 2,
@@ -41,6 +40,7 @@ const categoryB = [
     description: "Citrusy Boost For Maximum Energy",
     variants: "Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L",
     infos: ["Instant Hydration", "Endurance Fuel", "Refreshing Citrus Kick"],
+    size: "1.5 L",
   },
   {
     id: 3,
@@ -49,6 +49,7 @@ const categoryB = [
     description: "Citrusy Boost For Maximum Energy",
     variants: "Aima 500 ML, Aima 600Ml, Aima 1L, Aima 1.5L, Aima 2L",
     infos: ["Instant Hydration", "Endurance Fuel", "Refreshing Citrus Kick"],
+    size: "2 L",
   },
 ];
 
