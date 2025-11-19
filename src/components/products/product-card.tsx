@@ -13,14 +13,14 @@ interface ProductCardProps {
     description: string;
     variants?: string;
     size?: string;
-    infos: string[];
+    infos?: string[];
   };
 }
 
 const ProductCard = ({ details }: ProductCardProps) => {
   return (
     <div
-      className={`flex justify-between items-center flex-col md:flex-row ${
+      className={`flex justify-between items-center gap-[10%] flex-col md:flex-row ${
         details.id % 2 === 0 ? "md:flex-row-reverse " : ""
       }`}
     >
@@ -30,9 +30,9 @@ const ProductCard = ({ details }: ProductCardProps) => {
         style={{ clipPath: hexPath1 }}
         className="w-full md:w-1/2 object-cover"
       />
-      <div className="text-white flex-1 flex justify-center items-center">
-        <div className="flex flex-col items-center md:items-start">
-          <h1 className="text-8xl font-tungsten uppercase font-medium bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+      <div className="text-white flex-1 flex justify-start items-center ">
+        <div className="flex flex-col items-center md:items-start space-y-6">
+          <h1 className="text-8xl font-tungsten font-medium bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             {details.title}
           </h1>
           <p className="font-industry text-xl bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent ">
@@ -44,11 +44,13 @@ const ProductCard = ({ details }: ProductCardProps) => {
             </p>
           )}
 
-          <ul className="font-industry text-2xl mt-5 text-center md:text-left my-5">
-            {details.infos.map((info, idx) => (
-              <li key={idx}>-{info}</li>
-            ))}
-          </ul>
+          {details.infos && (
+            <ul className="font-industry text-2xl mt-5 text-center md:text-left my-5">
+              {details.infos?.map((info, idx) => (
+                <li key={idx}>-{info}</li>
+              ))}
+            </ul>
+          )}
           {details.size && (
             <p className="font-industry font-medium text-3xl  mb-5">
               {details.size}
