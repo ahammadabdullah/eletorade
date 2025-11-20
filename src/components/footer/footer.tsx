@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className="bg-black/80 border-t-[1px] border-t-gray-1/30 font-industry text-gray-1">
       <div className="max-w-7xl mx-auto ">
-        <div className="flex justify-between  py-10 h-[300px] items-center flex-col md:flex-row">
+        <div className="flex justify-between  py-10 h-[650px] items-center flex-col md:flex-row">
           <div
             id="about"
             className="w-full md:w-2/3 gap-3 flex flex-col md:items-start items-center"

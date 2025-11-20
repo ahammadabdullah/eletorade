@@ -7,9 +7,7 @@ const Hero = () => {
       <div className="bg-[url('/heroGrid.png')] bg-cover bg-black/60 bg-blend-multiply">
         <div className="max-w-7xl mx-auto hidden md:block">
           <div className="relative overflow-hidden">
-            <h3 className="text-background font-tungsten md:text-[450px] font-medium text-center">
-              ELECTORADE
-            </h3>
+            <h3 className="heroText">ELECTORADE</h3>
             <div className="absolute inset-0 mask-gradient-bottom">
               <Image
                 src={electorade}

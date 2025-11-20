@@ -170,3 +170,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+@utility heroText {
+  @apply text-background font-tungsten  lg:text-[450px] font-medium text-center;
+  @media screen and (max-width: 1024px) {
+    @apply text-[350px];
+  }
+}
