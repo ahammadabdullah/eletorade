@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "@/assets/logo/logo.png";
+import logo from "@/assets/logo/footer-logo.png";
 import Image from "next/image";
 import { Phone, Mail } from "lucide-react";
 import {
@@ -17,14 +17,23 @@ const Footer = () => {
         <div className="flex justify-between  py-10 h-[300px] items-center flex-col md:flex-row">
           <div
             id="about"
-            className="w-full md:w-1/3 gap-3 flex flex-col md:items-start items-center"
+            className="w-full md:w-2/3 gap-3 flex flex-col md:items-start items-center"
           >
-            <Image src={logo} alt="logo" className="w-[50px] h-[50px]" />
+            <Image src={logo} alt="logo" className="w-[60px] h-[60px]" />
             <p className="text-justify px-10 md:text-left md:px-0">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-              modi ex aliquid! Quia cupiditate earum minima dignissimos quaerat,
-              atque sapiente voluptate expedita non, voluptas magnam possimus
-              eum recusandae. Provident laborum quia vel, sequi consequuntur
+              Golden Arc Pvt Ltd is a leading name in the beverage industry,
+              dedicated to providing premium hydration solutions for
+              health-conscious consumers. Our product range includes
+              high-quality electrolyte drinks and pure bottled water, designed
+              to keep you refreshed and energized throughout the day. We combine
+              advanced purification processes with scientifically balanced
+              electrolytes to deliver beverages that support active lifestyles
+              and optimal wellness. At Golden Arc, we prioritize sustainability,
+              innovation, and customer satisfaction, ensuring every bottle meets
+              the highest standards of quality and safety. Whether you’re an
+              athlete, a professional, or simply someone who values healthy
+              hydration, Golden Arc Pvt Ltd is your trusted partner for superior
+              drinking solutions.
             </p>
           </div>
           <div
